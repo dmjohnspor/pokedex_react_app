@@ -1,7 +1,6 @@
-# Pokedex (with React.js and Material-UI)
+# <a href="https://dmjohnspor.github.io/pokedex_app/" target="_blank">`Pokedex (with React.js and Material-UI)`</a>
 
 > A simple Pokedex app made with React.js and Material-UI, using the PokeApi.<br>
-> See it live <a href="https://dmjohnspor.github.io/pokedex_app/" target="_blank">`here`</a>.
 
 ![GitHub stars](https://img.shields.io/github/stars/dmjohnspor/pokedex_app?style=social)
 ![GitHub contributors](https://img.shields.io/github/contributors/dmjohnspor/pokedex_app)
