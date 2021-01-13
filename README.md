@@ -73,6 +73,7 @@ See the app live <a href="https://dmjohnspor.github.io/pokedex_app/" target="_bl
 - Polish the individual pokemon page using Material-UI.
 - Add "Favourite Pokemon" function.
 - Organize display results by Generation or Pokemon Regions.
+- Make the app mobile responsive.
 
 ---
 <a name="tech"/>
