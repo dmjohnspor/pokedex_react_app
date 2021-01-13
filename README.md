@@ -99,7 +99,7 @@ This app was made using the following technologies:
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/dmjohnspor/hw19_react_employee_directory.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/dmjohnspor/pokedex_app.git`
 
 ### Step 2
 
@@ -107,7 +107,7 @@ This app was made using the following technologies:
 
 ### Step 3
 
-- 🔃 Create a new pull request using `https://github.com/dmjohnspor/hw19_react_employee_directory/compare/`
+- 🔃 Create a new pull request using `https://github.com/dmjohnspor/pokedex_app/compare/`
 
 ---
 <a name="support"/>
