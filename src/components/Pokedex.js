@@ -9,7 +9,8 @@ import {
     CardContent,
     CircularProgress,
     Typography,
-    TextField
+    TextField,
+    Button
 } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import { fade, makeStyles } from '@material-ui/core/styles';
@@ -42,6 +43,10 @@ const useStyles = makeStyles(theme => ({
     searchInput: {
         width: '200px',
         margin: '5px',
+    },
+    button: {
+        background: 'red',
+        color: 'white'
     }
 }));
 
@@ -99,15 +104,28 @@ const Pokedex = (props) => {
         <>
             <AppBar position='static'>
                 <Toolbar>
-                    <div className={classes.searchContainer}>
-                        <SearchIcon className={classes.searchIcon} />
-                        <TextField
-                            className={classes.searchInput}
-                            label='Pokemon'
-                            variant='standard'
-                            onChange={handleSearchChange}
-                        />
-                    </div>
+                    <Grid container direction='row' justify='flex-start' alignItems='center' spacing={3}>
+                        <Grid item>
+                            <div className={classes.searchContainer}>
+                                <SearchIcon className={classes.searchIcon} />
+                                <TextField
+                                    className={classes.searchInput}
+                                    label='Pokemon'
+                                    variant='standard'
+                                    onChange={handleSearchChange}
+                                />
+                            </div>
+                        </Grid>
+                        <Grid item>
+                            <Button
+                                className={classes.button}
+                                variant="contained"
+                                onClick={() => history.push('/')}
+                            >
+                                Back to Pokedex selection
+                            </Button>
+                        </Grid>
+                    </Grid>
                 </Toolbar>
             </AppBar>
             {pokemonData ? (
