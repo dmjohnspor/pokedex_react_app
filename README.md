@@ -1,4 +1,4 @@
-# <a href="https://dmjohnspor.github.io/pokedex_app/" target="_blank">`Pokedex (with React.js and Material-UI)`</a>
+# <a href="https://ioannis-sporidis.github.io/pokedex_app/" target="_blank">`Pokedex (with React.js and Material-UI)`</a>
 
 > A simple Pokedex app made with React.js and Material-UI, using the PokeApi.<br>
 
