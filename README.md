@@ -1,6 +1,6 @@
 # Pokedex App
 
-Click [here](https://ioannis-sporidis.github.io/ra-pokedex/) to check out the app live!
+Check out the live app [here](https://ioannis-sporidis.github.io/ra-pokedex/).
 
 ## Dependencies
 
